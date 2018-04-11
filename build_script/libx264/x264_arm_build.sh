@@ -1,8 +1,8 @@
 
-NDK=/Users/jianxi/android/sdk/ndk-bundle
+NDK=${ANDROID_NDK_HOME}
 
 PLATFORM=$NDK/platforms/android-14/arch-arm
-TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64
+TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64
 PREFIX=./android/arm
 
 function build_one

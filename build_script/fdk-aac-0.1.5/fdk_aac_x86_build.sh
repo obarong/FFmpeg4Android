@@ -2,12 +2,12 @@
 # https://github.com/mabeijianxi
 # mabeijianxi@gmail.com
 
-NDK_HOME=/Users/jianxi/android/sdk/ndk-bundle
+NDK_HOME=${ANDROID_NDK_HOME}
 ANDROID_API=android-14
 
 SYSROOT=$NDK_HOME/platforms/$ANDROID_API/arch-x86
 
-ANDROID_BIN=$NDK_HOME/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin
+ANDROID_BIN=$NDK_HOME/toolchains/x86-4.9/prebuilt/linux-x86_64/bin
 
 CROSS_COMPILE=${ANDROID_BIN}/i686-linux-android-
 
