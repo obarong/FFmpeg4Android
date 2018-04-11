@@ -55,3 +55,20 @@ freeline/
 freeline_project_description.json
 
 .idea/
+*.a
+*.o
+*.lai
+*.pc
+*.d
+*.1
+*.1
+*.3
+*.Plo
+*.la
+libtool
+Makefile
+*.in
+*.status
+configure
+config.*
+
