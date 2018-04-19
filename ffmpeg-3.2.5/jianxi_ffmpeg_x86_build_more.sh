@@ -56,7 +56,7 @@ build_one(){
 --extra-ldflags="-L$FDK_LIB -L$X264_LIB" \
 --enable-gpl \
 --enable-shared \
---disable-static \
+--enable-static \
 --enable-version3 \
 --enable-pthreads \
 --enable-small \
